@@ -81,7 +81,6 @@ async def getPysmaInstance(hass: HomeAssistant, data: dict[str, Any]) -> Device:
                 addrs.append(ip_info["address"])
         _LOGGER.info("Binding Addr: " + ",".join(addrs))
         sma.set_options({"bindingaddr": ",".join(addrs)})
-    await sma.new_session()
     return sma
 
 
