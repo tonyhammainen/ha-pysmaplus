@@ -1,6 +1,6 @@
 {
   "name": "SMA Devices Plus (Tony)",
-  "zip_release": true,
+  "zip_release": false,
   "render_readme": true,
   "filename": "ha-pysmaplus.zip"
 }
